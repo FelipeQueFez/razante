@@ -1,43 +1,36 @@
 import 'package:flutter/material.dart';
+import 'package:razante/views/home/list_items.dart';
 
-class TabLayoutDemo extends StatelessWidget {
+class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3,
-      child: new Scaffold(
+      length: 2,
+      child: Scaffold(
+        appBar: AppBar(
+          bottom: TabBar(
+            tabs: [
+              Tab(icon: Icon(Icons.home)),
+              Tab(icon: Icon(Icons.perm_identity)),
+            ],
+          ),
+          title: Text('Razante'),
+        ),
         body: TabBarView(
           children: [
-            new Container(
-              color: Colors.yellow,
-            ),
-            new Container(
+            Container(
               color: Colors.orange,
+              child: ListItems(),
             ),
-            new Container(
-              color: Colors.lightGreen,
-            ),
+            Icon(Icons.directions_bike),
           ],
         ),
-        bottomNavigationBar: new TabBar(
-          tabs: [
-            Tab(
-              icon: new Icon(Icons.home),
-            ),
-            Tab(
-              icon: new Icon(Icons.add),
-            ),
-            Tab(
-              icon: new Icon(Icons.perm_identity),
-            ),
-          ],
-          labelColor: Colors.yellow,
-          unselectedLabelColor: Colors.blue,
-          indicatorSize: TabBarIndicatorSize.label,
-          indicatorPadding: EdgeInsets.all(5.0),
-          indicatorColor: Colors.red,
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            
+          },
+          child: Icon(Icons.add),
         ),
-        backgroundColor: Colors.black,
       ),
     );
   }
