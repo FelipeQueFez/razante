@@ -12,7 +12,7 @@ class Home extends StatelessWidget {
           bottom: TabBar(
             tabs: [
               Tab(icon: Icon(Icons.home)),
-              Tab(icon: Icon(Icons.perm_identity)),
+              Tab(icon: Icon(Icons.info)),
             ],
           ),
           title: Text('Razante'),
@@ -20,7 +20,7 @@ class Home extends StatelessWidget {
         body: TabBarView(
           children: [
             Container(
-              color: Colors.orange,
+              color: Colors.white,
               child: ListItems(),
             ),
             Container(
