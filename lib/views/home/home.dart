@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:razante/views/books.dart';
 import 'package:razante/views/home/list_items.dart';
 
 class Home extends StatelessWidget {
@@ -22,7 +23,10 @@ class Home extends StatelessWidget {
               color: Colors.orange,
               child: ListItems(),
             ),
-            Icon(Icons.directions_bike),
+            Container(
+              color: Colors.white,
+              child: BookList(),
+            ),
           ],
         ),
         floatingActionButton: FloatingActionButton(

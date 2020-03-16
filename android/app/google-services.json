@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "481249662496",
+    "firebase_url": "https://razante-91422.firebaseio.com",
+    "project_id": "razante-91422",
+    "storage_bucket": "razante-91422.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481249662496:android:83f5d45849292253618e45",
+        "android_client_info": {
+          "package_name": "com.example.razante"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481249662496-g7ne9i8b4m7rn1p0pd7n8begt75285l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8LdeaeEnK9fAy-8g1YUGX1hKnvArZIHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481249662496-g7ne9i8b4m7rn1p0pd7n8begt75285l6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
