@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:razante/views/books.dart';
-import 'package:razante/views/home/list_items.dart';
+import 'package:razante/views/home/widgets/info.dart';
+import 'package:razante/views/home/widgets/list_items.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -25,7 +25,7 @@ class Home extends StatelessWidget {
             ),
             Container(
               color: Colors.white,
-              child: BookList(),
+              child: InfoList(),
             ),
           ],
         ),

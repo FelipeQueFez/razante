@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:razante/views/home/item.dart';
+import 'package:razante/views/home/widgets/item.dart';
 
 class ListItems extends StatelessWidget {
   @override
