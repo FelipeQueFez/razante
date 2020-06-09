@@ -1,5 +1,5 @@
 # Razante
-App para buscar lugares interessantes perto de você a partir de seus gostos (genêro musical, lugar cheio ou não, tipos de bebidas etc...)
+App para buscar lugares interessantes perto de você a partir de seus gostos (gênero musical, lugar cheio ou não, tipos de bebidas etc...)
 
 ## Preview App Android
 
